@@ -1,0 +1,133 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Header Section */
+.header {
+    background-color: #6b4f4f;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.navbar a:hover {
+    color: #f0c040;
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    background: url('coffee-2560260_640.jpg') no-repeat center/cover;
+    color: #fff;
+    padding: 5rem 1rem;
+}
+.welcome-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.welcome-section .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #f0c040;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.welcome-section .btn:hover {
+    background-color: #e09c00;
+}
+
+/* Specials Section */
+.specials-section {
+    padding: 2rem 1rem;
+    background-color: #f9f5f2;
+    text-align: center;
+}
+.specials-grid {
+    background-color: #6b4f4f;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.special-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+}
+.special-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.special-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Story Section */
+.story-section {
+    background: url('valentines-day-624440_1280.jpg') no-repeat center/cover;
+    
+    padding: 2rem 1rem;
+    
+    text-align: center;
+    
+}
+.story-section p {
+    max-width: 600px;
+    margin: 0 auto;
+    text-decoration-color: white;
+}
+
+/* Find Us Section */
+.find-us-section {
+    background-color: #666;
+    padding: 2rem 1rem;
+    background-color: #f9f5f2;
+    text-align: center;
+}
+.find-us-section p {
+    margin: 0.5rem 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #6b4f4f;
+    color: #fff;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
